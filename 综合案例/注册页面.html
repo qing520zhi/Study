@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>注册页面</title>
+	</head>
+	<body>
+		<table>
+			<thead>
+				<h3>青春不常在，抓紧谈恋爱</h3>
+			</thead>
+			<tbody>
+				<form action="login.java" method="post" name="login" >
+					<tr>
+						<td>性别</td>
+						<td>
+							<input
+								type="radio"
+								name="sex"
+								id="man"
+								checked="checked"
+							/><label for="man"
+								><img src="images/man.jpg" />男</label
+							><input type="radio" name="sex" id="women" /><label
+								for="women"
+								><img src="images/women.jpg" />女</label
+							>
+						</td>
+					</tr>
+					<tr>
+						<td>生日：</td>
+						<td>
+							<input type="date" />
+						</td>
+					</tr>
+					<tr>
+						<td>所在地区：</td>
+						<td><input type="text" maxlength="30" /></td>
+					</tr>
+					<tr>
+						<td>婚姻状况：</td>
+						<td>
+							<input
+								type="radio"
+								name="marry"
+								id="weihun"
+								checked="checked"
+							/><label for="weihun">未婚</label
+							><input
+								type="radio"
+								name="marry"
+								id="yihun"
+							/><label for="yihun">已婚</label
+							><input type="radio" name="marry" id="liyi" /><label
+								for="liyi"
+								>离异</label
+							>
+						</td>
+					</tr>
+					<tr>
+						<td>学历：</td>
+						<td>
+							<select>
+								<option>本科</option>
+								<option>硕士</option>
+								<option>博士</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>喜欢的类型：</td>
+						<td>
+							<input
+								type="checkbox"
+								name="type"
+								id="xinggan"
+							/><label for="xinggan">性感的</label
+							><input
+								type="checkbox"
+								name="type"
+								id="keai"
+							/><label for="keai">可爱的</label
+							><input
+								type="checkbox"
+								name="type"
+								id="wenrou"
+							/><label for="wenrou">温柔的</label
+							><input
+								type="checkbox"
+								name="type"
+								id="allin"
+							/><label for="allin">我都要</label>
+						</td>
+					</tr>
+					<tr>
+						<td>自我介绍：</td>
+						<td><textarea placeholder="自我介绍"></textarea></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="submit" value="免费注册" /></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input
+								type="checkbox"
+								checked="checked"
+							/>我同意注册条款和会员加入标准
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<a href="会员登录.html" target="_blank"
+								>我是会员，立即登录</a
+							>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><h2>我承诺</h2></td>
+					</tr>
+                    <tr>
+                        <td></td>
+                        <td>
+							<ul>
+								年满18岁，单身
+							</ul>
+							<ul>
+								抱着严肃的态度
+							</ul>
+							<ul>
+								真诚的寻找对象
+							</ul>
+						</td>
+                    </tr>
+				</form>
+			</tbody>
+		</table>
+	</body>
+</html>

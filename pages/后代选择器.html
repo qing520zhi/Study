@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			/* 后代选择器：父标签+空格+子标签  最终改变的子标签的样式 */
+			ol li {
+				color: pink;
+			}
+			/* 可以多代选择，只影响最小的那个后代 */
+
+			ol li a {
+				color: pink;
+			}
+            /* 可以任意选择器组合 */
+			.nav li a {
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<ol>
+			<li>ol的孩子</li>
+			<li>ol的孩子</li>
+			<li>ol的孩子</li>
+			<li>ol的孩子</li>
+			<li>ol的孩子</li>
+			<li><a href="#">江南水乡</a></li>
+			<li><a href="#">江南水乡</a></li>
+		</ol>
+		<ul class="nav">
+			<li>ul的孩子</li>
+			<li>ul的孩子</li>
+			<li>ul的孩子</li>
+			<li>ul的孩子</li>
+			<li>ul的孩子</li>
+			<li><a href="#">江南水乡</a></li>
+			<li><a href="#">江南水乡</a></li>
+			<li><a href="#">江南水乡</a></li>
+		</ul>
+	</body>
+</html>
